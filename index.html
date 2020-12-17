@@ -2,10 +2,27 @@
 <html>
 	<head>
 		<link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	</head>
 	<body>
-		<div class="title">
-			Hello, goorm!
-		</div>
+        <div class="container">
+          <i class="fa fa-camera-retro fa-3x" title="Click me!"></i>
+          <ul>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#">요기에 사진 업로드</a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+          </ul>
+        </div>
+
+        <a href="#" target="_blank">PKH</a>
 	</body>
 </html>
+
+<script>
+$("i").click(function () {
+  $("ul").toggleClass("open");
+});
+</script>
